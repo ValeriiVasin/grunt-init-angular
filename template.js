@@ -12,9 +12,9 @@ exports.template = function(grunt, init, done) {
     '.gitignore',
     'Gruntfile.js',
     'package.json',
-    'index.html',
-    'js/lib/angular.js',
-    'js/app.js'
+    'public/index.html',
+    'public/js/lib/angular.js',
+    'public/js/app.js'
   ];
 
   files.forEach(init.copy);
