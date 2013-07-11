@@ -1,0 +1,8 @@
+{
+    "name": "AngularDemo",
+    "description": "Angular demo app",
+    "devDependencies": {
+        "grunt-contrib-watch": "latest"
+    },
+    "dependencies": {}
+}

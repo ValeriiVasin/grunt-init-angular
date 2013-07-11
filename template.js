@@ -9,6 +9,9 @@ exports.notes = '';
 // The actual init template.
 exports.template = function(grunt, init, done) {
   var files = [
+    '.gitignore',
+    'Gruntfile.js',
+    'package.json',
     'index.html',
     'js/lib/angular.js',
     'js/app.js'
